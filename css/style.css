@@ -27,8 +27,6 @@ ul {
 .debug * {
   min-height: 100px;
   padding: 5px;
-  background-color: #ff000022;
-  border: 2px dashed red;
 }
 
 .container {
@@ -41,33 +39,35 @@ ul {
 
 .container-pink {
   background-color: pink;
+  min-width: 200px;
 }
 
 .container-blue {
-  background-color: blue;
+  background-color: hsl(209.6deg 100% 55.88%);
+  min-width: 400px;
 }
 
 /* HEADER */
 
 header {
-  background-color: aquamarine;
+  background-color: hsl(195.52deg 54.72% 79.22%);
 }
 
 header .container.top-header {
-  background-color: chocolate;
+  background-color: hsl(43.09deg 75.81% 48.63%);
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 800px;
   margin-bottom: 10px;
 }
 
 .top-header-items {
   align-content: center;
-  flex-grow: ;
+  border: dashed black 2px;
 }
 
 .container.end-header {
-  background-color: blue;
+  background-color: hsl(239.57deg 100% 27.25%);
   max-width: 1100px;
   padding-left: 10px;
   padding-right: 10px;
@@ -75,11 +75,11 @@ header .container.top-header {
 
 .small-container-header {
   background-color: rgb(30, 222, 43);
-  max-width: 600px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px;
+  border: dashed black 2px;
 }
 
 /* MAIN */
@@ -93,9 +93,13 @@ header .container.top-header {
   justify-content: center;
 }
 
+.end-main {
+  background-color: hsl(0deg 0% 82.75%);
+}
+
 .container-bottom-main {
   background-color: forestgreen;
-  max-width: 1000px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
@@ -103,7 +107,7 @@ header .container.top-header {
 }
 
 .main-structure-center {
-  background-color: #808080;
+  background-color: hsl(0deg 0% 82.75%);
 }
 
 /* FOOTER */
@@ -117,12 +121,22 @@ header .container.top-header {
   padding-right: 10px;
 }
 
-.container-end-footer {
+.container-footer {
   display: flex;
   justify-content: space-between;
 }
 
-.container-footer {
+.end-footer {
+  background-color: blue;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-end-footer {
+  background-color: hsl(159.84deg 100% 74.9%);
   display: flex;
   justify-content: space-between;
 }
