@@ -105,3 +105,24 @@ header .container.top-header {
 .main-structure-center {
   background-color: #808080;
 }
+
+/* FOOTER */
+
+.container-top-footer {
+  background-color: rgb(231, 39, 151);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-end-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
