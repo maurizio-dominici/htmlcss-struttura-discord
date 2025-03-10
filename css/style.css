@@ -47,6 +47,26 @@ ul {
   display: flex;
 }
 
+.col-70 {
+  width: 70%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
 /* HEADER */
 
 .page-header {
@@ -102,6 +122,31 @@ ul {
 
 .page-content > section:nth-child(even) {
   background-color: rgb(211 211 211);
+}
+
+.page-content > section:nth-child(even) .row {
+  flex-direction: row-reverse;
+}
+
+.page-content .col-40 {
+  /* debug */
+  min-height: 400px;
+  background-color: rgb(255 192 202);
+  border: 2px dashed black;
+}
+
+.page-content .col-60 {
+  /* debug */
+  min-height: 400px;
+  background-color: rgb(30 144 255);
+  border: 2px dashed black;
+}
+
+.page-content .large-content {
+  /* debug */
+  background-color: green;
+  min-height: 600px;
+  border: 2px dashed black;
 }
 
 /* .main-structure-top {
